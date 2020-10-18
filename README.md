@@ -1,8 +1,12 @@
+# TD Ameritrade Trading Bot
+This is a trading bot based on TD Ameritrade API to fetch stock prices from the US stock market in real-time. Reference resources can be found here: 
+
 Documentation: https://developer.tdameritrade.com/apis
 YouTube Video: https://www.youtube.com/watch?v=qJ94sSyPGBw&ab_channel=SigmaCoding 
 External Module Source: https://tda-api.readthedocs.io/en/stable/ 
 
-Flow of this program 
+
+## How it works
 1. RUN 'main.py' 
 2. GET info from 'info.py' 
 3. PUT info into 'strategies.py' 
@@ -10,11 +14,11 @@ Flow of this program
 5. RECORD order in 'portfolio.py' 
 6. TRIGGER take profit / stop loss in 'close_order.py 
 
-
 main -> info -> strategies -> open_order -> portfolio -> close_order 
          ^                                                     | 
          |_____________________________________________________| 
                                   repeat    
+
 
 
 Do List:
